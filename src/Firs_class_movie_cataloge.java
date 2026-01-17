@@ -1,4 +1,4 @@
-public class Main {
+public class Firs_class_movie_cataloge {
 
     public static void main(String[] args) {
 
