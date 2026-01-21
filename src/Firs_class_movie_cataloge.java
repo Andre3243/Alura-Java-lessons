@@ -18,9 +18,13 @@ public class Firs_class_movie_cataloge {
         String sinopsis = """
                 Matrix es una paradoja 
                 La mejor pelicula del fin del milenio 
-                Fue lanzada en: %s , teniendo esta una nota de %.1f
+                Fue lanzada en el año %s,teniendo una nota de %.1f
                 """         .formatted(fechaDelanzamiento,notaDelaPelicula);
         System.out.println(sinopsis);
+
+        int clasificacion = (int) (media  / 2);
+        System.out.println(clasificacion);
+
     }
 }
 
